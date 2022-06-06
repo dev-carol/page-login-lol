@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    
+    <title>Tela login - Riot Games</title>
+  </head>
+  <body>
+    <main>
+      <section class="login">
+
+        <div class="wrapper"> 
+        <img src="./images/Riot_Games-Logo.wine.png" class="login__logo" />
+        <h1 class="login__title">Fazer login</h1>
+
+        <label class="login__label">
+          <span >Nome do usuário</span>
+          <input type="text" name="username" class="input" />
+        </label>
+
+        <label class="login__label">
+          <span >Senha</span>
+          <input type="password" name="password" class="input" />
+        </label>
+
+        <div class="login__icons">
+          <button type="button" class="icons_button">
+            <a href="https://pt-br.facebook.com/" target="_blank">   <img src="./images/facebook.png" alt="facebook" /> </a>
+         
+          </button>
+          <button type="button" class="icons_button">
+            <a href="https://myaccount.google.com/" target="_blank">     <img src="./images/google.png" alt="google"/></a>
+     
+          </button>
+          <button type="button" class="icons_button">
+            <a href="https://appleid.apple.com/" target="_blank">       <img src="./images/apple.png" alt="apple" /></a>
+
+          </button>
+        </div>
+        <label class="login__label--checkbox">
+          <input type="checkbox" class="input--checkbox" />
+          Manter login
+        </label>
+      </div>
+
+      <div class="wrapper">
+        <button type="button" class="login__button" disabled>
+          <svg src="./images/arrow_arrows_back_direction_left_navigation_right_icon_123236.svg" >    
+          </svg>
+      </button>
+
+      <a href="https://recovery.riotgames.com/"target="_blank" class="login__link">Não consegue iniciar sessão?</a>
+      <a href="https://signup.leagueoflegends.com/" target="_blank" class="login__link">Criar conta</a>
+
+
+      </div>
+
+      <p  class="login__link">Dev: Carol Santos</p>
+      </section>
+      
+      <section id="#imagem" class="wallpaper"></section>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
